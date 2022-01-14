@@ -1,5 +1,41 @@
 # Changelog
 
+# [0.4.0](https://github.com/saltstack-formulas/cron-formula/compare/v0.3.2...v0.4.0) (2022-01-14)
+
+
+### Continuous Integration
+
+* **3003.1:** update inc. AlmaLinux, Rocky & `rst-lint` [skip ci] ([d52490b](https://github.com/saltstack-formulas/cron-formula/commit/d52490b1d34690f156e2fb161f8f90fd969f5752))
+* **gemfile+lock:** use `ssf` customised `inspec` repo [skip ci] ([c20c85d](https://github.com/saltstack-formulas/cron-formula/commit/c20c85d48a3a1c82b7731ce62abb13d0fa23cfe0))
+* **gemfile+lock:** use `ssf` customised `kitchen-docker` repo [skip ci] ([9dd756d](https://github.com/saltstack-formulas/cron-formula/commit/9dd756d7cdf68078771ae5e77962380e2cae9ab7))
+* **kitchen:** move `provisioner` block & update `run_command` [skip ci] ([53b7f38](https://github.com/saltstack-formulas/cron-formula/commit/53b7f380c2222839084c773d5c5dda43a6dafe6d))
+* **kitchen+ci:** update with `3004` pre-salted images/boxes [skip ci] ([0142c55](https://github.com/saltstack-formulas/cron-formula/commit/0142c55ba5224376bd6871556d5ee6021ae805a1))
+* **kitchen+ci:** update with latest `3003.2` pre-salted images [skip ci] ([dfb1c33](https://github.com/saltstack-formulas/cron-formula/commit/dfb1c33dbf0772d7853e279f4c61ed86893b9555))
+* **kitchen+ci:** update with latest CVE pre-salted images [skip ci] ([2971748](https://github.com/saltstack-formulas/cron-formula/commit/29717486b9fbbd450a44d156aa4d0b0e0c40ab01))
+* add `arch-master` to matrix and update `.travis.yml` [skip ci] ([8a264b7](https://github.com/saltstack-formulas/cron-formula/commit/8a264b759d8ded9e161366a7ec9249bab6d7f436))
+* add Debian 11 Bullseye & update `yamllint` configuration [skip ci] ([452afbe](https://github.com/saltstack-formulas/cron-formula/commit/452afbe6ec675d60ba8896b071627752e7ab6f82))
+* **commitlint:** ensure `upstream/master` uses main repo URL [skip ci] ([c9e1a2b](https://github.com/saltstack-formulas/cron-formula/commit/c9e1a2b6a3909e69786220887a61ccc6f1f8de06))
+* **gitlab-ci:** add `rubocop` linter (with `allow_failure`) [skip ci] ([76ee797](https://github.com/saltstack-formulas/cron-formula/commit/76ee797cb59eabda5257d30e0acc62abda1e8b2a))
+* **gitlab-ci:** use GitLab CI as Travis CI replacement ([920c438](https://github.com/saltstack-formulas/cron-formula/commit/920c4388e9bd9f25b4db4503f5a39fb42c3ab7ca))
+* **kitchen+ci:** use latest pre-salted images (after CVE) [skip ci] ([64260e8](https://github.com/saltstack-formulas/cron-formula/commit/64260e85b05683b2ef61d1bad58556ba411233b0))
+* **kitchen+gitlab:** adjust matrix to add `3003` [skip ci] ([9072f83](https://github.com/saltstack-formulas/cron-formula/commit/9072f83d8fef25aaa249732e6115d3cc2b0bc25b))
+* **kitchen+gitlab:** remove Ubuntu 16.04 & Fedora 32 (EOL) [skip ci] ([e588573](https://github.com/saltstack-formulas/cron-formula/commit/e58857389200e73ec1e67fe611ad68cb1e1df46c))
+* **kitchen+gitlab-ci:** use latest pre-salted images [skip ci] ([750e242](https://github.com/saltstack-formulas/cron-formula/commit/750e242b39b1846267f627c44fd99875c0ee4ae5))
+* **pre-commit:** add to formula [skip ci] ([b36d0ec](https://github.com/saltstack-formulas/cron-formula/commit/b36d0ecd6e77722aca6fb3900f04e7fa39840e03))
+* **pre-commit:** enable/disable `rstcheck` as relevant [skip ci] ([8856f60](https://github.com/saltstack-formulas/cron-formula/commit/8856f60dd22457463465a5c305235fe10d687b1f))
+* **pre-commit:** finalise `rstcheck` configuration [skip ci] ([a3fa371](https://github.com/saltstack-formulas/cron-formula/commit/a3fa3710f5747ceed18ce5834a7bb41ab14bfcb9))
+* **pre-commit:** update hook for `rubocop` [skip ci] ([8317265](https://github.com/saltstack-formulas/cron-formula/commit/8317265a7d7816ef8ea446058ab70abd6bafd3d1))
+
+
+### Features
+
+* **osfamilymap:** add Gentoo support ([547ae1b](https://github.com/saltstack-formulas/cron-formula/commit/547ae1b5931c6cb1e12bc32b61d6f614ab1bbfe8))
+
+
+### Tests
+
+* standardise use of `share` suite & `_mapdata` state [skip ci] ([73b9643](https://github.com/saltstack-formulas/cron-formula/commit/73b96437a1fcd4e72d9219f162b53e3c19d64ed0))
+
 ## [0.3.2](https://github.com/saltstack-formulas/cron-formula/compare/v0.3.1...v0.3.2) (2020-09-10)
 
 
