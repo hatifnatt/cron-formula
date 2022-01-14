@@ -20,3 +20,7 @@ Suse: {}
 
 Arch:
   service: cronie
+
+Gentoo:
+  pkg: sys-process/cronie
+  service: cronie
